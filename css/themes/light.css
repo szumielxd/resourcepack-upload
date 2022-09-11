@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #dcc;
+	background-image: url("/img/background-light.jpg");
+	background-size: cover;
+	color: inherit;
+}
+::selection {
+	background-color: #f8bfbf;
+	color: white;
+}
+input {
+	background-color: white;
+	color: gray;
+	border-color: gray;
+}
+input[type="text"] {
+	box-shadow: 0 0 10px #aaa;
+}
+input[type="text"]::placeholder {
+	color: #bbb;
+}
+input[type="file"]::file-selector-button {
+	background-color: #e66465;
+	background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e66465, #9198e5);
+    color: lightpink;
+}
+
+input[type="file" i]::-webkit-file-upload-button:hover {
+	color: #ff8093;
+	background-image: linear-gradient(white, white), radial-gradient(circle at top left, #df3a3a, #6670db)
+}
+textarea {
+	background-color: #fff;
+	color: #777;
+	border-color: #ccc;
+	box-shadow: #ccc 0 0 10px;
+}
+#footer {
+	background-color: #111;
+	color: #666;
+}
+body > footer {
+    background-color: #111;
+    color: #777;
+}
+body > footer > div#footer-content > a {
+    color: aqua;
+} 
+#header {
+	color: black;
+	background-color: rgba(0,0,0,0.2);
+}
+.theme-icon:before {
+	content: "\f186";
+}
+.content-table {
+	background-color: white;
+}
